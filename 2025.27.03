@@ -1,0 +1,2 @@
+A day in review
+Today we started out reviewing more info about what a DHCP server does, the four step process that it follows when retrieving information and how it help manage IP addresses. we talked about the commands that check settings of the dhcp server in Ubuntu and CentOS. we discussed more examples of commands to use and when to use them. We started on the different types of service a server can provide and unit files. closed the day out with more commands to be used with systems and service administration
