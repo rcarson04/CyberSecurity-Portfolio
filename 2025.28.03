@@ -1,0 +1,2 @@
+A day in review
+We started today out with a new subject, firewalls. we talked about what the do and how the access control list basically provides a firewall with everything that its supposed to be filtering and the typs of firewalls. we touch on IP tables and how the app tool is mainly based on Netfilter. we moved on to remote admin access and how public and private keys are created and how they are used. we covered the different commands to use depending on what OS you are using and ended the day with a class exercise. 
