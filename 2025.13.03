@@ -1,2 +1,21 @@
-A day in review 
-Today in class, we did a brief review of how to set up virtual machines and continued into types of VMWare. The virtual machines we will be utilizing during the class will be Ubuntu and CentOS currently. We took time to download and install said programs. We also covered types of RAM and the two types of Hypervisors and different servers. A key part of our conversation today went over the benefits of hypervisors and which of the two types we will work with in the future.
+Virtual Machines, Hypervisors, and getting hands on with VMWare
+
+Today’s class was all about getting practical and technical as we dove into the world of virtual machines and virtualization tools — essential building blocks in the cybersecurity and IT landscape.
+
+We kicked things off with a quick review on how to set up virtual machines (VMs), brushing up on key steps to get them up and running smoothly. Then we transitioned into an overview of VMWare and the different types of virtualization it offers — a great way to understand how virtual environments can simulate physical machines and help us safely practice and test in isolated systems.
+
+During the course, we’ll be working specifically with Ubuntu and CentOS virtual machines, which we spent time downloading, installing, and getting configured today. It was exciting to actually start working with these platforms — there's something empowering about setting up your own digital environment!
+
+We also covered some foundational knowledge around:
+
+Types of RAM and how memory impacts performance
+
+The two types of hypervisors (Type 1 and Type 2)
+
+Various server types and how they interact with virtualized environments
+
+One of the key points we explored was the benefits of using hypervisors, especially in cybersecurity labs and enterprise-level systems. Understanding how hypervisors enable multiple VMs to run on a single machine — while maintaining security, efficiency, and scalability — is a game-changer.
+
+We’ll be primarily working with Type 2 hypervisors, which run on top of an existing operating system. This makes them perfect for learning environments like ours where flexibility and accessibility are key.
+
+Today definitely helped solidify some key concepts and got us hands-on with the tools we’ll continue to build on. Feeling more confident and excited to keep leveling up from here! ⚙️💻🚀
