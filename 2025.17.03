@@ -1,2 +1,28 @@
-A day in review
-We started out the new week talking about Identity and Access Management. We taled about Identity defining "who you are", Authentification defining "proving who you are", Authorization defining "what you can do", and Accounting defining "what did you do". We spoke about the two types of users, types of servers and diffrent types of Groups in regard to access. We closed up this day by reviewing different commands and cryptographic algorhythms. 
+Kicking off the week with Identity and Access Management (IAM)
+
+We hit the ground running this week with a deep dive into one of the most critical pillars of cybersecurity: Identity and Access Management (IAM). It was an eye-opening and foundational session that really helped frame how access to systems is managed and protected in real-world environments.
+
+We broke down the core components of IAM into four key concepts:
+
+🧑 Identity – defines "who you are" in a digital environment. Whether it's a user, device, or application, everything needs a unique identity.
+
+🔑 Authentication – the process of "proving who you are." This includes methods like passwords, biometrics, and multi-factor authentication (MFA).
+
+🛂 Authorization – determines "what you can do" once you've been authenticated. This governs your access to files, systems, and resources.
+
+📊 Accounting (or Auditing) – tracks "what did you do" by logging and monitoring user activity for compliance and security purposes.
+
+From there, we explored the two types of users — standard users vs. privileged users — and discussed the different types of servers that may be involved in managing identity and access across a network.
+
+We also took a closer look at:
+
+👥 Group types and how access can be managed more efficiently by assigning permissions at the group level.
+
+🧾 The importance of organizing access based on roles, responsibilities, and the principle of least privilege.
+
+To wrap up the day, we reviewed some essential terminal commands and took a peek into the world of cryptographic algorithms — key players in securing authentication and maintaining data integrity.
+
+It’s amazing to see how all these layers work together to keep systems secure and organized. IAM is more than just logging in — it’s about ensuring the right people have the right access at the right time… and only the right people.
+
+Super excited to keep building on this knowledge and see how it all fits into the bigger cybersecurity picture! 🔐🧠💡
+
