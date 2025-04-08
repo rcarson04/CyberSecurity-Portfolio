@@ -1,0 +1,29 @@
+A day in review 
+Today we jumped back into our Network+ journey by exploring the first layer of the OSI model — the Physical Layer.
+
+This is where data transmission begins, and it's all about signals, cables, and the physical infrastructure that makes communication possible. We discussed how data moves in different forms (electrical, light, or radio signals) and how choosing the right equipment ensures those signals reach their destination efficiently.
+
+We covered a variety of cabling and transmission methods, including:
+
+Twisted pair
+
+Fiber optic
+
+Coaxial
+
+Wireless/antennae
+
+Each of these has its own ratings, frequencies, and installation requirements, all of which impact network performance and reliability.
+
+We also dug into the equipment used to connect networks to service providers, and how networks internally connect devices depending on distance, environment, and function.
+
+To wrap up, we reviewed terminology related to:
+
+Network devices
+
+Cabling types
+
+Signal transmission
+
+Another great session that helped build a solid foundation in understanding how data physically moves from point A to point B. Looking forward to layering on even more knowledge next session!
+
