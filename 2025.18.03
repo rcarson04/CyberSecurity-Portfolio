@@ -1,2 +1,38 @@
-A day in review 
-Today we started by reviewing yesterday's material. We moved on with a new topic, user permissions. We discussed the differnt types of users and read, write, and execute permissions. we also discussed how to use commands in Linux to change or add permissions to a user. We discussed the numercial values for said commands as well. 
+Permission granted! Diving into user permissions in Linux
+
+Today’s class was all about building on yesterday’s foundation — we kicked things off with a quick review to reinforce what we’ve learned so far about Identity and Access Management, and then jumped into a new, equally important topic: User Permissions.
+
+In the world of cybersecurity and system administration, understanding user permissions is crucial for keeping systems secure, organized, and functioning properly. We explored the different types of users, including:
+
+👤 Standard users
+
+🛠️ Administrative (root) users
+
+👥 Group users
+
+Then we broke down the core permission types that dictate what users can or can’t do:
+
+📖 Read (r) – permission to view file contents
+
+✍️ Write (w) – permission to modify or delete files
+
+🚀 Execute (x) – permission to run files or scripts
+
+We also learned how to manage these permissions using Linux terminal commands — including how to add, remove, or modify access. It was empowering to see how much control we have with just a few keystrokes!
+
+🔢 One of the most interesting parts was learning about numeric (octal) values for permissions. Instead of writing out rwx, we can use numbers like:
+
+7 = read + write + execute
+
+6 = read + write
+
+5 = read + execute
+
+And so on…
+
+Now we can confidently use commands like chmod to adjust access rights, whether it’s for a single file or across a whole directory.
+
+Understanding permissions is like being handed the keys to the kingdom — it gives us the power to secure our systems and manage user roles responsibly.
+
+Each day, the pieces of the cybersecurity puzzle are coming together, and I’m loving the journey so far! 🧩💻🔐
+
