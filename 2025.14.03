@@ -1,3 +1,36 @@
-A day in review 
-We previously discussed the how to set up VMWare of a PC, but today we discussed terms that describe the different parts of VMWare. A few of the terms we discussed definitions for include: kernel, shell, terminal, shell versus terminal, syntax and terminal commands. We also prepared for a first chapter assessment that included 15 questions about what we covered this week. I passed the assessment with an %86.67
-For a view into 3/17, we discussed file system, its componenets, and the path from storage to file. We also discussed basic commands for linux, relative versus absolute paths and chain of command.
+Deepening our understanding of VMWare and Diving into Linux Essentials
+
+This week has been all about building confidence with tools and concepts that are foundational to both virtualization and Linux systems. After previously learning how to set up VMWare on a PC, today’s session shifted gears a bit as we took time to explore the key terminology and components that make up VMWare and command-line environments.
+
+Some of the important terms we broke down included:
+
+🧩 Kernel – the core of the operating system that communicates directly with hardware
+
+💻 Shell – the interface that allows users to interact with the OS
+
+🖥️ Terminal – the environment where commands are input and executed
+
+🔍 Shell vs. Terminal – a helpful distinction between the interface (shell) and the tool we use to access it (terminal)
+
+✍️ Syntax – the specific structure or rules for writing terminal commands
+
+🔧 Terminal Commands – basic, yet powerful, tools for navigating and managing a system
+
+We wrapped up the day with our first chapter assessment, which covered everything we've learned so far this week. I'm proud to share that I passed with an 86.67% — a strong start and a solid motivator to keep pushing forward!
+
+Looking ahead to our work on March 17, we shifted our focus to the Linux file system — learning not just what it looks like, but how it functions and is structured. We explored:
+
+📁 File system components
+
+🛣️ The path from storage to file
+
+🔑 Basic Linux commands for navigating and managing files
+
+📍 Relative vs. Absolute paths and why they matter
+
+🪢 The “chain of command” when executing commands or accessing files
+
+It’s been a packed few days, but I’m really starting to feel more confident with command-line tools and how everything connects in a virtualized environment. Each lesson builds on the last, and it's amazing to see how all these concepts are starting to come together.
+
+Ready to keep climbing and mastering the skills that’ll shape my future in cybersecurity! 🧠💪💻
+
