@@ -1,2 +1,63 @@
-A day in review
-Today we started out reviewing more info about what a DHCP server does, the four step process that it follows when retrieving information and how it help manage IP addresses. we talked about the commands that check settings of the dhcp server in Ubuntu and CentOS. we discussed more examples of commands to use and when to use them. We started on the different types of service a server can provide and unit files. closed the day out with more commands to be used with systems and service administration
+⚙️ Diving Deeper into DHCP, Services, and System Administration
+
+Today’s session was another step forward in building the solid foundation we need for a successful cybersecurity career. We kicked things off with a detailed review of DHCP (Dynamic Host Configuration Protocol) — an essential service that plays a huge role in how devices connect and communicate across a network.
+
+📡 Understanding DHCP: The Backbone of IP Address Management
+We explored the four-step process that DHCP follows:
+
+Discover – The client broadcasts a request to find available DHCP servers.
+
+Offer – The DHCP server responds with an IP address offer.
+
+Request – The client requests to use that offered IP address.
+
+Acknowledge – The server confirms and leases the IP to the client.
+
+This simple, yet powerful process is what enables devices to seamlessly join a network without manual configuration. We also looked into how DHCP helps manage a pool of IP addresses efficiently — reducing the chance of conflicts and misconfigurations.
+
+💻 Working with DHCP on Ubuntu & CentOS
+We practiced using Ubuntu and CentOS commands to check DHCP settings, verify configurations, and troubleshoot issues. Some of the key commands included:
+
+ip a and nmcli for inspecting interfaces
+
+systemctl for managing the DHCP service
+
+journalctl for viewing system logs and service status
+
+It was great to see how consistent Linux is across different distros while also appreciating the subtle differences between them.
+
+🛠️ Exploring Services and Unit Files
+We then transitioned into a discussion on types of services that servers can provide, including:
+
+Web services
+
+File sharing
+
+Email services
+
+DNS and DHCP
+
+Authentication services
+
+We also introduced the concept of unit files — the configuration files used by systemd to manage services. These files define how services are started, stopped, and restarted. Learning how to read and interact with unit files gives us more control over the system and is a crucial skill for systems administration.
+
+🔧 Command Line Confidence
+To wrap up the day, we added more Linux commands to our growing toolbox, focusing on:
+
+Service management
+
+Monitoring running processes
+
+Diagnosing issues
+
+Starting and stopping services with precision
+
+🧠 Key Takeaways:
+DHCP is more than just background magic — it’s a critical, dynamic system that automates IP address assignments across networks.
+
+Knowing how to navigate both Ubuntu and CentOS gives us versatility as future tech professionals.
+
+Understanding and working with unit files equips us for real-world system and service administration.
+
+It’s energizing to see how all the pieces we’ve been learning are beginning to connect. The deeper we dive, the more confident I feel about working in tech environments where precision and understanding truly matter. Onward and upward! 🚀💻🔐
+
