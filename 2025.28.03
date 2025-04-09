@@ -1,2 +1,53 @@
-A day in review
-We started today out with a new subject, firewalls. we talked about what the do and how the access control list basically provides a firewall with everything that its supposed to be filtering and the typs of firewalls. we touch on IP tables and how the app tool is mainly based on Netfilter. we moved on to remote admin access and how public and private keys are created and how they are used. we covered the different commands to use depending on what OS you are using and ended the day with a class exercise. 
+🔥 Firewalls, Remote Access & Hands-On Practice: Leveling Up in Cybersecurity
+
+Today we jumped into a brand new topic that’s absolutely essential to protecting networks: Firewalls — our first line of defense in cybersecurity!
+
+🧱 What is a Firewall?
+We started off by breaking down what a firewall actually does: it acts as a barrier between trusted and untrusted networks, deciding which traffic gets in and which gets blocked. It's essentially the digital version of a security guard, checking credentials before letting anything through the gate.
+
+A key takeaway was learning how Access Control Lists (ACLs) are at the heart of firewall functionality. These ACLs contain the rules and criteria that determine what kind of traffic is allowed or denied. Whether it’s by IP address, port number, or protocol, ACLs are like the instruction manual for your firewall.
+
+🔐 Types of Firewalls
+We also explored the different types of firewalls:
+
+Packet-filtering firewalls
+
+Stateful inspection firewalls
+
+Application-layer (proxy) firewalls
+
+Next-generation firewalls (NGFWs)
+
+It was eye-opening to understand how each type serves a different purpose based on the environment and level of security needed.
+
+🛠️ Diving into IPTables & Netfilter
+Next, we took a deeper technical dive into iptables, a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall.
+
+We learned that iptables works in tandem with Netfilter, which is the framework built directly into the Linux kernel. This combo gives Linux systems powerful, flexible firewall capabilities that are highly customizable.
+
+💻 Remote Admin Access & Key Pairs
+Moving forward, we discussed Remote Administration Access, focusing on how secure connections are established using SSH (Secure Shell).
+
+This led us to a super important concept: Public and Private Key Pairs. These keys are critical for secure access:
+
+The public key is shared with the remote machine.
+
+The private key stays safe and secure on your local device.
+
+Together, they allow for encrypted communication without ever needing to transmit passwords — a major upgrade in security.
+
+We explored commands for creating and managing keys, and how to securely connect to a remote server — all while tailoring our commands based on whether we were working with Ubuntu or CentOS.
+
+🧪 Wrapping Up with Practice
+We closed out the day with a hands-on class exercise that let us apply everything we’d just learned — reinforcing key concepts through real-time practice. It was great to troubleshoot, test firewall rules, and get a feel for how access control really works in action.
+
+💡 Key Takeaways:
+Firewalls are a cornerstone of cybersecurity, and knowing how they function gives you a huge leg up.
+
+Tools like iptables and Netfilter provide granular control over your network traffic.
+
+Mastering SSH key-based authentication is critical for secure remote administration.
+
+Practical application helps turn theory into confidence — and today’s exercise did just that.
+
+The energy in class was high today — we’re not just learning concepts; we’re building the mindset and skills to protect real-world systems. Every day, I feel more and more like a future cybersecurity pro. 🔐💪🚀
