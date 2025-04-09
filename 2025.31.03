@@ -1,2 +1,53 @@
-A day in review
-Today in class we started working on something a little different. We have spoken about how to access web pages through linux previously, but today we actually used linux to access and create a repository on our personal Github pages which was pretty neat. Hearing about what all you can do with linux is informational, but getting to execute something from linux brought it full circle. We also spoke about Git as a version control system and its different platforms. 
+🖥️ Linux Meets GitHub: Putting Knowledge into Action
+
+Today’s class took a hands-on turn, and it was a rewarding shift from theory to execution!
+
+We’ve talked a lot about using Linux in previous lessons — navigating the file system, entering commands, and accessing web pages. But today we took it a step further by using Linux to actually interact with GitHub — and it felt like a major milestone.
+
+🔧 Creating a GitHub Repository Through Linux
+For the first time, we used Linux to create and push to a personal GitHub repository. It was a cool moment to see the terminal come alive, not just as a place for commands, but as a tool to connect with one of the most widely used platforms in the tech world.
+
+Here’s what we covered:
+
+Initializing a Git repository locally
+
+Creating a new GitHub repo
+
+Linking the local repo to the remote one using SSH or HTTPS
+
+Adding and committing files
+
+Pushing changes from Linux directly to GitHub
+
+Being able to move between Linux and GitHub made everything we’ve been learning feel more connected and purposeful.
+
+🔁 Understanding Git as a Version Control System
+We also dove deeper into what Git really is — not just a platform, but a version control system that tracks changes, enables collaboration, and protects your work over time.
+
+We talked about how Git:
+
+Helps manage codebases of all sizes
+
+Allows for rollback to previous versions
+
+Makes it easier to collaborate with other developers through branching and merging
+
+We explored popular platforms that use Git, including:
+
+GitHub (most popular for collaboration and open source)
+
+GitLab (with built-in CI/CD pipelines)
+
+Bitbucket (popular in enterprise environments)
+
+💡 Key Takeaways:
+Using Linux to push code to GitHub builds practical skills for real-world dev and security environments.
+
+Understanding Git as a version control system is essential for collaboration and project management.
+
+Today was a great example of bridging theory with real-world tools — and seeing your work live on GitHub is incredibly motivating.
+
+Getting to apply what we’ve learned in a real-world context made today’s class one of the most exciting so far. Every command, every push, and every commit helped reinforce the power of what we’re learning.
+
+Ready for the next challenge! 💻✨🔐
+
