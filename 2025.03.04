@@ -1,4 +1,5 @@
-A day in review 
+Net+ Deep Dive into the Physical Layer (OSI model)
+
 Today we jumped back into our Network+ journey by exploring the first layer of the OSI model — the Physical Layer.
 
 This is where data transmission begins, and it's all about signals, cables, and the physical infrastructure that makes communication possible. We discussed how data moves in different forms (electrical, light, or radio signals) and how choosing the right equipment ensures those signals reach their destination efficiently.
