@@ -1,2 +1,37 @@
-a day in review
-We started today speaking about how network interfaces are configued with protcols. we reviewed more info on IP addresses and network indicators that can tell us if an ip address is public or private. we spoke about the two different types of configuration as well. We learned how certain commands with show us more info about them and more about what a network interface card does. We talked about DHCP server and how it communicates with the client. We closed out the day discussing more commands and how it relates to network configuration.
+Networking in Action – Diving into Interfaces, IPs, and Configuration!
+
+Today’s lesson was packed with hands-on knowledge as we continued to build our understanding of how devices communicate within a network. We started by exploring how network interfaces are configured with protocols, and just how essential that configuration is to establishing proper communication across systems.
+
+We took a closer look at IP addresses, one of the most fundamental pieces of networking. 🧠💻
+
+We learned how to:
+
+Identify whether an IP address is public or private 🌍🏠
+
+Recognize network indicators that help determine the IP's purpose and scope
+
+Understand the structure and use cases for different types of IPs
+
+We also covered the two main types of IP configuration:
+
+Static IP – where the IP is manually assigned and doesn’t change
+
+Dynamic IP – which is automatically assigned, typically through a DHCP server
+
+💬 Speaking of DHCP (Dynamic Host Configuration Protocol), we dove into how it functions and how it communicates between a DHCP server and a client. We traced the step-by-step flow of how a device joins a network and gets its address, gateway, DNS info, and more — all without user input. Pretty amazing!
+
+Another highlight of the day was understanding the role of the Network Interface Card (NIC). It acts as the bridge between a computer and the network, and we explored how it handles traffic and connects devices to wired or wireless networks. 📡🔌
+
+We also rolled up our sleeves and used several important network commands that reveal key information about network configurations, such as:
+
+Viewing IP configurations
+
+Checking interface statuses
+
+Diagnosing connectivity issues
+
+These tools are crucial for troubleshooting and network administration, and they gave us a glimpse into how professionals monitor and maintain healthy networks.
+
+🔧 We wrapped up by learning even more useful commands that help us manipulate and understand network setups on a deeper level. Every day we’re adding more tools to our cybersecurity toolkit, and it’s exciting to see how it all connects!
+
+Ready for what’s next — this journey into networking just keeps getting better! 🚀🌐💡
