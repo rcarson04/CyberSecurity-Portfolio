@@ -1,2 +1,26 @@
-A day in review
-on this monday, we started network fundamentals starting with numbering systems. We spoke about hexidecimal system that uses 16 sysmbols and how it convert it from and to binary. We also spoke abouy Analog and how it is counted. We started talking about the OSI model and the different layers as well as TCP/IP. we briefly touched on network ports and how they determine what apps will handle communication to certain processes.
+Kicking off Network Fundamentals - A Dive into the Digital Language of Communication
+
+On this Monday, we stepped into an exciting new chapter of our cybersecurity journey — Network Fundamentals — the foundation of how computers talk to each other across the globe. And wow, we covered a lot of ground to set the stage!
+
+We kicked things off with a deep dive into numbering systems, which are essential to understanding how devices communicate behind the scenes. Specifically, we explored:
+
+🔢 The Hexadecimal System – a base-16 system that uses numbers 0–9 and letters A–F. It’s commonly used in computing because it’s a compact way to represent binary values (especially useful for IP addressing and MAC addresses). We practiced converting between binary and hexadecimal, and started to understand how these systems help structure communication at a fundamental level.
+
+📈 We also touched on analog systems — where values are measured in a continuous flow, unlike digital signals which are discrete. Understanding this contrast helps lay the groundwork for how data is transmitted over various media types.
+
+Then came the core of it all — 🧱 The OSI Model — the conceptual framework that breaks down networking into seven layers, each responsible for a different part of the communication process. We began exploring:
+
+How each layer handles specific responsibilities
+
+The flow of data from one layer to the next
+
+What kinds of hardware and software interact at each level
+
+We also took a peek at the TCP/IP Model, which simplifies OSI’s layers into a practical, real-world protocol suite used to manage internet communication.
+
+💡 To wrap things up, we touched briefly on network ports — those tiny, virtual entry points that help systems understand which applications should handle incoming or outgoing data. Whether it's web traffic, email, or secure shell connections, ports help route data to the right destination within your system.
+
+All in all, today was a strong start to understanding how networks operate, and it's clear that this knowledge will be crucial not only for configuring systems but also for protecting them.
+
+I’m excited to keep building this foundation — because once you understand the language of networking, you unlock the keys to managing and securing the digital world. 🔐📡🌍
+
