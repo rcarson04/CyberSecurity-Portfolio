@@ -1,3 +1,29 @@
-A Day in review
+Deep Dive into Network Devices & OSI Layer Applications
 
-on this day, we started by reviewing material from yesterday. For example we reviewed MAC addresses and how they identify the owner or organization and the device ID. We added some new classifications to devices associated with certain layers in the OSI model like MDI and MDIX devices. We got into further detail about patch wiring and what situation calls for certain types of wiring. We learned about devices like wireless access points, TAP and SPAN, what in band and out of band means, modular vs fixed switches, the different kinds of servers, CAM tables, and port aggregation. We covered collision and broadcast domain and power over ethernet and equipment utilized in both to close out the day 
+Today’s session was another step forward in building a strong foundation in networking! We kicked things off with a review of yesterday’s content, reinforcing key concepts like MAC addresses—how they’re structured to identify both the manufacturer (via the OUI) and the unique device ID. It was great to revisit how crucial MAC addresses are for data link layer communication and network organization.
+
+From there, we added some new and important classifications to our OSI model toolbox by learning about MDI (Medium Dependent Interface) and MDIX (Medium Dependent Interface Crossover) devices. Understanding the difference between the two helped clarify when to use crossover vs. straight-through cables, especially in switch-to-switch or switch-to-router configurations.
+ We also explored patch wiring in more depth, discussing what kinds of cables are best suited for various networking scenarios. Whether it’s fiber or copper, patch panels or switchports, we’re learning how to make the right call based on network design.
+
+ Today’s exploration into network devices was full of powerful tools and concepts:
+
+Wireless Access Points and how they extend network connectivity.
+
+The role of TAPs (Test Access Points) and SPAN (Switched Port Analyzer) for network monitoring and analysis.
+
+The difference between In-Band vs. Out-of-Band management, especially when working with remote access or troubleshooting.
+
+We compared modular vs. fixed switches, learning about the scalability and flexibility offered by modular setups.
+
+ We also talked through:
+
+The different types of servers (file, print, application, etc.)
+
+CAM (Content Addressable Memory) tables, which switches use to remember MAC addresses and efficiently direct traffic.
+
+Port Aggregation (or link aggregation), a method to increase bandwidth and create redundancy between devices.
+
+To round out the day, we defined and compared collision domains and broadcast domains, essential for understanding network segmentation and traffic control. We closed by looking at Power over Ethernet (PoE), learning how it simplifies installations by delivering both power and data over a single cable, and the types of equipment that support this functionality.
+
+All in all, today was a full-on networking masterclass! Each concept built on the last, painting a clearer picture of how modern networks are structured, secured, and optimized. Let’s keep the momentum going! 🚀🔧
+
