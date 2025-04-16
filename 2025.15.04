@@ -1,0 +1,3 @@
+A Day in review
+
+on this day, we started by reviewing material from yesterday. For example we reviewed MAC addresses and how they identify the owner or organization and the device ID. We added some new classifications to devices associated with certain layers in the OSI model like MDI and MDIX devices. We got into further detail about patch wiring and what situation calls for certain types of wiring. We learned about devices like wireless access points, TAP and SPAN, what in band and out of band means, modular vs fixed switches, the different kinds of servers, CAM tables, and port aggregation. We covered collision and broadcast domain and power over ethernet and equipment utilized in both to close out the day 
