@@ -1,3 +1,16 @@
-a day in review
+Weekday Deep Dive: OSI Model & Data Link Layer Fundamentals
 
-On this monday we started out by going into more detail about the data link layer of the osi model. we spoke about the physical addressing of network devices and frames. we learned about what polling is and token ring/bus and how they help prevent crashes. we also learned about CSMA/CD and that it provisions how multiple devices communicate on a shared connection. we learned the difference between a hub and a switch. Briefly discussed standards of ethernet and reviewed the OSI Model, type of devices and equipment are associated with each layer, the different types of fiber optics and touched on the different types of wiring classifications. We talked about how data can be transmitted. we learned about the differences between a bridge and a repeater. We defined terms like hub, switch, MAC, port, router and others. we wrapped up by learning how many bytes are in a frame and the parts that make up a frame.
+This Monday was packed with valuable insights as we dove deeper into the Data Link Layer of the OSI Model, continuing to build our understanding of how networks communicate at a fundamental level.
+
+We explored how devices on a network are identified through physical (MAC) addressing and how data is encapsulated into frames for transmission. We took a closer look at polling mechanisms and legacy network technologies like Token Ring and bus topologies, which were early solutions for managing device communication and preventing network collisions.
+
+We also learned about CSMA/CD (Carrier Sense Multiple Access with Collision Detection), which governs how multiple devices share a single communication medium efficiently without stepping on each other's toes. That led us into a great discussion comparing hubs vs. switches — learning how switches intelligently direct traffic using MAC addresses while hubs simply broadcast data, often causing unnecessary congestion.
+
+We then reviewed Ethernet standards, the OSI Model layers, and discussed which types of devices operate at each layer. We also looked at the different types of fiber optic cables (like single-mode and multi-mode) and their specific uses, as well as the TIA/EIA wiring classifications used in structured cabling.
+
+We continued by exploring how data travels through a network and learned the key differences between devices like bridges and repeaters, which both extend network reach but serve slightly different purposes.
+
+To wrap things up, we broke down the components of a frame, discussed how many bytes it typically contains, and defined critical terms like hub, switch, MAC address, port, and router — solidifying our foundation in networking concepts.
+
+Overall, today felt like unlocking a deeper level of understanding in how information flows from one device to another. It's exciting to see how all these elements come together to support communication in the digital world!
+
