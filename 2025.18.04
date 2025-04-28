@@ -1,1 +1,28 @@
-today in class we started out talking about Automatic Private IP Addressing also known as APIPA. It has specific ranges to describe IP adresses that are used if a system is unable to get a response/IP address. We revisited subnet mask and how it relates to this topic and it translates to a large network being divided into many smaller networks. We talked about CIDR or classless Interdomain routing which allows only part of an octet to be used for the network address. We revisited the OSI model to discuss how the Data link layer and Network layer route packets and and switches frames to be forwarded which led to discussing the different kinds of broadcasts. Unicast, Broadcast, and Multicast all have there own uses and we learned what they do. IPv6 however does not use broadcast, it only uses unicast, multicast, and anycast.
+Exploring IP Addressing, Subnetting, and Network Communication!
+
+Today’s class was another exciting step deeper into networking fundamentals, and we covered a lot of ground that really helped connect some important concepts!
+
+We started off by discussing Automatic Private IP Addressing (APIPA). APIPA comes into play when a device on a network can’t obtain an IP address from a DHCP server. Instead of being left without an address, the system automatically assigns itself an address from a specific reserved range (169.254.0.0 to 169.254.255.255). This allows local network communication even without a proper DHCP response, though it won’t support internet access.
+
+From there, we revisited subnet masks and their important role in breaking larger networks into smaller, more manageable subnetworks. Subnetting helps improve performance and security within a network by limiting broadcast traffic and organizing groups of devices logically.
+
+Building on that, we introduced CIDR (Classless Inter-Domain Routing). Unlike traditional class-based IP addressing, CIDR allows much more flexibility by letting parts of an octet be used for the network portion of the address. This efficient allocation helps conserve IP addresses and allows network architects to design more tailored and scalable networks.
+
+We also circled back to the OSI model, focusing on how data moves through the Data Link Layer and Network Layer.
+
+The Data Link Layer handles the switching of frames between devices on the same network.
+
+The Network Layer is responsible for routing packets across different networks.
+
+Understanding the roles these layers play helped set up our next discussion: the different types of network communication broadcasts. We learned about:
+
+Unicast: One-to-one communication — sending data directly to a single device.
+
+Broadcast: One-to-all communication — sending data to all devices on a network segment.
+
+Multicast: One-to-many communication — sending data to a specific group of interested devices.
+
+Interestingly, when we shifted our focus to IPv6, we learned that it operates a bit differently. Unlike IPv4, IPv6 does not use broadcast communication at all! Instead, it relies on unicast, multicast, and a new type called anycast for its traffic routing needs — helping to make network communication faster and more efficient.
+
+Today really helped tie together a lot of critical networking concepts — and it’s fascinating to see how these layers and protocols build on each other to create the connected world we live in!
+
