@@ -1,1 +1,18 @@
-In today's class, we revisited the class ranges of IP addresses which led into learning about subnet masks and how they are a shortcut to knowing how many bits are in each part of the IP address. We learned that placement of digits on subnet tells you what the host is and what the network number is. We also discussed how ARP, address resolution protocol, is used to resolve IP addresses to MAC addresses. We aslo discussed IP settings in the form of Static or Dynamic settings. Static would have you entering IP addresses manually, which is permanent until it is changed. Or dynamic, which is automatically generarted and can change any anytime. I assume, that Dynamic would present an issue because if the IP adress changes it can present an issue with communication with other nodes at random. we also discussed NAT, which translated IP addresses and revisited the DHCP process.
+Deep Dive into Networking Fundamentals: IP Addresses, Subnet Masks, ARP, and More!
+
+Today’s class was packed with a lot of foundational knowledge that really helped deepen our understanding of networking concepts — and gave us some great real-world insights too!
+
+We started by revisiting the different class ranges of IP addresses, which helped refresh our memory on how networks are organized. From there, we moved into a deeper discussion on subnet masks. We learned that subnet masks act as a shortcut to quickly figure out how many bits belong to the network portion versus the host portion of an IP address. Understanding where the digits fall in the subnet mask gives you critical information: which part identifies the network, and which part identifies the individual devices (hosts) on that network.
+
+Next, we talked about ARP (Address Resolution Protocol). This is a key process that helps devices on a local network match IP addresses to MAC addresses — essentially allowing machines to find each other physically and communicate effectively. Without ARP, devices would know where they should be sending data, but not how to physically reach each other.
+
+We also spent time breaking down IP settings, looking at the difference between Static and Dynamic addressing.
+
+Static IP addresses are manually configured and stay the same until someone manually changes them — offering reliability for devices like servers, but requiring more setup and management.
+
+Dynamic IP addresses, on the other hand, are assigned automatically (typically by DHCP) and can change over time. While dynamic assignment makes things easier for large networks, I can see how it could also cause communication issues if a device’s address changes unexpectedly and other systems are still trying to find it at its old address!
+
+Finally, we discussed NAT (Network Address Translation), a crucial process that allows multiple devices on a private network to share a single public IP address when accessing resources on the internet. We also took time to revisit the DHCP (Dynamic Host Configuration Protocol) process, which handles the automatic assignment of IP addresses and network configurations.
+
+Overall, today was another reminder of how interconnected all these networking concepts are — and how important it is to understand the basics before moving on to more complex topics. Feeling more confident each day!
+
