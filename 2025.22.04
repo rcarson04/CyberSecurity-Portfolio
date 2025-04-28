@@ -1,1 +1,36 @@
-Today we started talking about static mapping which means physically going to each routing and getting the information or dynaminc which would be an automatic broadcast. we reviewed routing protocols: distance, link state, hybrid, exterior. We moved on to learning about  Network Address Translation or NAT. Private IP addresses cant access the internet, so NAT translates an IP address to a public one so it can access the internet. We learned about SNAT that deals more with incoming traffic and can run out of IP addresses and DNAT that deals more with outbound traffic and disguises IP addresses that are first available to use from a table you already have. We were introduced to Port Address Translation which utilizes one port address using port numbers for multiple points of contact. poert numbers are used to mark traffic from specific places. a demonstratin was given on port forwarding
+Diving into Routing, NAT, and Port Forwarding
+
+Today’s class was packed with a lot of hands-on networking concepts, and honestly, it made me realize just how much happens behind the scenes when devices talk to each other on a network.
+
+We kicked things off by talking about static vs. dynamic mapping.
+
+Static mapping is when you physically go to each router and manually set up the information — it’s reliable, but definitely time-consuming, especially if you're managing a lot of devices.
+
+Dynamic mapping is way more flexible since routers automatically share information through broadcasts. It makes things run a lot smoother in bigger, busier networks.
+
+After that, we reviewed different routing protocols:
+
+Distance Vector protocols like RIP are simple and work well for smaller networks, but they’re slower because they only share info with their neighbors.
+
+Link State protocols like OSPF are faster because they share routing info with the whole network area.
+
+Hybrid protocols like EIGRP try to combine the best parts of both.
+
+And then there’s Exterior Gateway Protocols like BGP, which are used to route between really big networks (basically how the internet itself is connected).
+
+Next up was Network Address Translation (NAT), which I found super interesting.
+Basically, devices on a private network can’t just connect to the internet directly — NAT steps in to translate their private IP addresses into public ones so they can reach the outside world.
+
+We learned about a couple of types:
+
+SNAT (Source NAT) mostly handles outgoing traffic but can run out of available IP addresses if there’s too much happening at once.
+
+DNAT (Destination NAT) focuses more on incoming traffic, using a table of available addresses to disguise and manage traffic flowing in.
+
+Then we moved on to Port Address Translation (PAT).
+This lets a bunch of devices share one public IP address by using different port numbers — basically, it’s like each device gets its own "lane" on the highway even though they’re all using the same "on-ramp." Port numbers are super important here because they help direct the traffic to the right device.
+
+To wrap it all up, we had a quick demo on port forwarding, where we saw how you can set up a router to send specific types of traffic (like a web server request) straight to the right machine inside a private network. It’s a really cool trick for hosting things like games or websites from home!
+
+Overall, today really connected a lot of dots for me. Seeing how routing and NAT work together made it clear how important careful planning and configuration are for building strong, secure networks. Excited to keep learning!
+
