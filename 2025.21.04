@@ -1,1 +1,36 @@
-Today we started talking about mapping and how best route vs best path can determine which configuartion is best, static or dynamic? Reliability, Sustainability and Security all play a part, as well as Hops, Speed and Latency. We talked about how routing metrics work.Then we talked about the classifications of routing. route info protocol, interior gateway routing protocol, open shortest path first, enhanced interior gateway routing protocol, border gateway protocol. distance only shares with neribors which is slower and associated with smaller networks. Linkstate shares all routing which is faster and associated with larger networks. Distsance vector protocol- rotuing protocols that dettermine the best path based on hops. RIP - used to exchange info between routers in a computer network. has a limit of 15 hops, slow convergences, easy to implement and sutiable for smaller networks. IGRP is Cisco propriatary routing protocol designed to address limitations like latency. 
+Routing Protocols, Metrics, and Network Efficiency: A Deep Dive
+
+Today’s class took us into the world of routing — how networks determine the best way for data to travel from point A to point B. It was fascinating to see how many different factors come into play when deciding whether a static or dynamic configuration is the best choice!
+
+We began by discussing the difference between finding the best route versus finding the best path. Choosing the best option depends on a mix of key factors, including:
+
+Reliability: How consistently can the route deliver data without failure?
+
+Sustainability: Can the route remain effective over time as the network grows or changes?
+
+Security: How well can the route protect against vulnerabilities?
+
+Hops, Speed, and Latency: How many devices (hops) data passes through, how fast the data travels, and the delay (latency) experienced along the way.
+
+From there, we dove into routing metrics — the measurements routers use to evaluate and choose between possible paths. Metrics like hop count, bandwidth, delay, and reliability all factor into which path a router selects to forward packets.
+
+Next, we moved into the classifications of routing protocols, breaking them down into different types:
+
+RIP (Routing Information Protocol): A distance-vector protocol that shares route information only with immediate neighbors. RIP uses hop count as its metric and has a maximum hop limit of 15, making it ideal for small networks but not scalable for larger environments. It’s simple and easy to implement but suffers from slow convergence times.
+
+IGRP (Interior Gateway Routing Protocol): A Cisco proprietary protocol created to overcome some of RIP’s limitations, like high latency and lack of scalability. IGRP introduced more advanced metrics to improve routing decisions and better support larger, more complex networks.
+
+OSPF (Open Shortest Path First): A link-state protocol that shares full routing tables with all routers in a network area, leading to faster and more efficient routing decisions. OSPF is ideal for larger, dynamic networks.
+
+EIGRP (Enhanced Interior Gateway Routing Protocol): Also a Cisco proprietary protocol, EIGRP blends the best features of distance-vector and link-state protocols. It’s faster and more scalable, making it a powerful choice for enterprise networks.
+
+BGP (Border Gateway Protocol): Known as the "protocol of the internet," BGP is used for routing between large, separate networks (autonomous systems). It’s essential for managing how packets are routed across the internet.
+
+We also discussed the difference between Distance Vector and Link-State protocols:
+
+Distance Vector Protocols (like RIP) only share information with their immediate neighbors, which is slower but simpler — best suited for smaller networks.
+
+Link-State Protocols (like OSPF) share complete routing information across the network, leading to faster and more informed decisions — essential for large, complex environments.
+
+Today's lesson really highlighted how much thought and strategy goes into ensuring networks stay efficient, secure, and reliable as they grow. It's impressive how these protocols have evolved to meet the demands of modern networking!
+
