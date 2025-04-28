@@ -1,1 +1,96 @@
-Today we were introduced to firewalls. Firewalls are filters traffic from entering or exiting the network. There are different types of firewalls: Hardware which can be stand alone devices that can be integrated with routers, Software which can be operating system based or 3rd party software based, Cloud based which would be a service provided and Unified Threat Manager which is an all in one security application which is ideal for businesses. These are setup to control traffic in both directions, ACL tells the router what is allowed through. We covered more info about filtering. Stateless or packet filtering filters based on IP addresses protocol and port numbers, acts at the network layer, suitable for smaller networks but does not retain any record. Versus Stateful or curcuit level gateway. it inspects packets and tracks the state of active connections, acts at the session layer, ideal for corporate where data protection is vital, resource intensive and maintains a record of connections passing through the filter/firewall. we covered port, MAC, IP, content and dynamic filtering. we learned what a proxy server does, acts as a middle man and retrieves info out on the internet privately which can save bandwith. It encrypts data while surfing and has inbound and outbound detection. We also talked about forward and reverse traffic 
+Introduction to Firewalls, Filtering, and Proxy Servers
+
+Today’s session was all about firewalls — a critical piece of network security that acts as the first line of defense for any organization or personal network. It was fascinating to dig into the different types, how they function, and why they’re so important.
+
+What is a Firewall?
+At its core, a firewall is a filter that monitors and controls the flow of traffic entering or exiting a network. Think of it like a security guard, checking each piece of data to decide whether it should be allowed in or out based on pre-set security rules.
+
+Different Types of Firewalls
+We learned that firewalls come in several different forms, depending on the needs of the network:
+
+Hardware Firewalls:
+Stand-alone devices often integrated with routers. These are ideal for perimeter security, protecting entire networks.
+
+Software Firewalls:
+Installed on individual devices. These can be built into operating systems (like Windows Defender Firewall) or come from third-party providers.
+
+Cloud-based Firewalls:
+Provided as a service by a third-party vendor. Cloud firewalls are great for businesses with remote operations or cloud-based infrastructure.
+
+Unified Threat Management (UTM) Systems:
+A "one-stop shop" for security, combining firewall capabilities with antivirus, intrusion detection, and other protective measures — perfect for businesses looking for all-in-one solutions.
+
+Each type of firewall is set up to control traffic in both directions — not just keeping threats out, but also monitoring what is leaving the network.
+
+Access Control Lists (ACLs)
+We were introduced to Access Control Lists (ACLs) — sets of rules that tell the router or firewall what traffic is allowed or denied. ACLs are essential in defining and enforcing network boundaries.
+
+Diving Deeper into Traffic Filtering
+We also explored how firewalls filter traffic:
+
+Stateless (Packet Filtering):
+
+Filters traffic based on IP addresses, protocols, and port numbers.
+
+Operates at the network layer of the OSI model.
+
+Suitable for smaller networks.
+
+Does not track the state of connections — each packet is treated independently.
+
+Light on resources but limited in advanced protection.
+
+Stateful (Circuit-Level Gateway):
+
+Tracks the state of active connections.
+
+Operates at the session layer of the OSI model.
+
+Better suited for corporate environments where data protection is crucial.
+
+Maintains a record of connections, making it more secure but also more resource-intensive.
+
+In short, stateless firewalls are faster but less secure, while stateful firewalls provide deeper inspection and tracking at the cost of more processing power.
+
+More on Filtering Methods
+We expanded our understanding by looking at different types of filters:
+
+Port Filtering: Control traffic based on port numbers (e.g., allowing HTTP traffic on port 80, blocking others).
+
+MAC Address Filtering: Allow or block devices based on their unique hardware address.
+
+IP Address Filtering: Control access based on the IP address of the sender or receiver.
+
+Content Filtering: Restrict access to certain types of content, like adult websites or harmful downloads.
+
+Dynamic Filtering: Filters that adjust automatically based on real-time traffic conditions or policies.
+
+Each method adds another layer of customization and protection depending on the needs of the network.
+
+Introduction to Proxy Servers
+Lastly, we were introduced to the concept of proxy servers:
+
+A proxy acts as a middleman between a device and the internet.
+
+It retrieves information on your behalf, offering an extra layer of privacy and protection.
+
+Benefits of using a proxy server:
+
+Hides the user’s real IP address for anonymity.
+
+Encrypts data, adding security while browsing.
+
+Saves bandwidth by caching frequently accessed data.
+
+Provides inbound and outbound threat detection to help monitor and filter traffic.
+
+We also discussed forward and reverse proxy traffic:
+
+Forward Proxy: Used by clients to access resources on the internet.
+
+Reverse Proxy: Used by servers to control and distribute incoming client requests — often used for load balancing and enhanced security.
+
+Final Thoughts
+Today’s session made it crystal clear that securing a network is about more than just setting up passwords. Firewalls, ACLs, proxies, and filtering techniques all work together to create a strong, adaptable defense system.
+Every network, whether personal or enterprise-level, needs the right mix of these tools to stay protected in today's threat landscape.
+
